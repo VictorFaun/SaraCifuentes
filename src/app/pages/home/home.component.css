@@ -403,7 +403,6 @@ nav ul li a:hover {
   margin-top: 0px;
   margin-bottom: 70px;
 
-  text-align: justify;
 
   @media (max-width: 768px) {
     font-size: 4vw;
@@ -487,8 +486,6 @@ nav ul li a:hover {
   font-family: "Poppins", Sans-serif;
   font-size: 0.9vw;
   font-weight: 400;
-
-  text-align: justify;
 
   @media (max-width: 768px) {
     font-size: 3.5vw;
@@ -600,7 +597,6 @@ nav ul li a:hover {
   margin-bottom: 140px;
 
 
-  text-align: justify;
 
   @media (max-width: 768px) {
     font-size: 4vw;
@@ -733,7 +729,7 @@ nav ul li a:hover {
   font-size: 1.2vw;
   font-weight: 500;
   line-height: 1.2em;
-  text-align: justify;
+  text-align: center;
   margin: 0px;
 
   @media (max-width: 768px) {
