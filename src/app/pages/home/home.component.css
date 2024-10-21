@@ -186,7 +186,8 @@ nav ul li a:hover {
   border-radius: 50px 50px 50px 50px;
   box-shadow: 2px 3px 5px 1px rgba(var(--color-rgb-8), 0.64);
   padding: 4% 8% 4% 8%;
-  i{
+
+  i {
     margin-left: 10px;
   }
 }
@@ -421,6 +422,7 @@ nav ul li a:hover {
   margin-right: -10px;
   padding: 0% auto 0% auto;
   justify-content: center;
+
   @media (max-width: 768px) {
     flex-direction: column;
     padding: 0% 0% 0% 0%;
@@ -438,6 +440,7 @@ nav ul li a:hover {
   background-color: var(--color-2);
   border-radius: 20px;
   height: 550px;
+
   p {
     margin: 0px;
   }
@@ -859,12 +862,17 @@ nav ul li a:hover {
 .content-6 .desktop {
 
   display: initial;
-  swiper-container{
+
+  swiper-container {
     height: 500px;
   }
-  img{
-    width: 100%; height: 100%; object-fit: cover;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+
   @media (max-width: 768px) {
 
     display: none;
@@ -874,12 +882,16 @@ nav ul li a:hover {
 .content-6 .movil {
   display: none;
 
-  swiper-container{
+  swiper-container {
     height: 500px;
   }
-  img{
-    width: 100%; height: 100%; object-fit: cover;
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+
   @media (max-width: 768px) {
     display: initial;
   }
@@ -1117,12 +1129,17 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
 
-  .doctoralia{
-    display: flex;justify-content: center; align-items: center;
-    img{
-      padding-left: 2px;padding-right: 2px;
+  .doctoralia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      padding-left: 2px;
+      padding-right: 2px;
     }
   }
+
   a {
     width: 1.5vw;
     height: 1.5vw;
@@ -1189,6 +1206,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+
     @media (max-width: 768px) {
       font-size: 4.9vw;
 
