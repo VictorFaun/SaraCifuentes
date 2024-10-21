@@ -1,4 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
-body{
+body {
     margin: 0px;
+}
+
+:root {
+    --color-0: #ffffff;
+    --color-1: #fdfaff;
+    --color-2: #e5d1fa;
+    --color-3: #c19bca;
+    --color-4: #b889cd;
+    --color-5: #7030a0;
+    --color-6: #291b25;
+    --color-7: #504C44;
+    --color-8: #000000;
+
+    --color-rgb-0: 255, 255, 255;
+    --color-rgb-1: 253, 250, 255;
+    --color-rgb-2: 229, 209, 250;
+    --color-rgb-3: 193, 155, 202;
+    --color-rgb-4: 184, 137, 205;
+    --color-rgb-5: 112, 48, 160;
+    --color-rgb-6: 41, 27, 37;
+    --color-rgb-7: 80, 76, 68;
+    --color-rgb-8: 0, 0, 0;
 }

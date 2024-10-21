@@ -84,7 +84,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   font-size: 17.5px;
-  color: #E6427A;
+  color: var(--color-5);
   /* Color base de los enlaces */
   transition: color 0.4s ease, opacity 0.4s ease;
   font-family: "Poppins", sans-serif;
@@ -108,7 +108,7 @@ nav ul li a:hover {
 }
 
 #main-header.transparent nav ul li a {
-  color: #E6427A;
+  color: var(--color-5);
 }
 
 /* Estilo del header cuando se hace scroll (más pequeño y con fondo blanco) */
@@ -118,7 +118,7 @@ nav ul li a:hover {
 }
 
 #main-header.scrolled {
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(var(--color-rgb-0), 0.9);
   padding: 1px 8% 0px 10%;
 }
 
@@ -127,7 +127,7 @@ nav ul li a:hover {
 }
 
 #main-header.scrolled nav ul li a {
-  color: #E6427A;
+  color: var(--color-5);
   /* Mantiene el color al hacer scroll */
 }
 
@@ -137,7 +137,7 @@ nav ul li a:hover {
   display: flex;
   align-items: center;
   min-height: 100vh;
-  background-color: #fee7ed !important;
+  background-color: var(--color-2) !important;
   background: url(../../../assets/SARA_PORTADA.png);
   background-position: center;
   background-repeat: no-repeat;
@@ -151,7 +151,7 @@ nav ul li a:hover {
 
 .content p {
   font-size: 1.3vw;
-  color: #666;
+  color: var(--color-7);
   margin: 0px;
   margin-bottom: 0.9rem;
   font-family: "Poppins", Sans-serif;
@@ -160,7 +160,7 @@ nav ul li a:hover {
 }
 
 .content .nombre {
-  color: #E6427A;
+  color: var(--color-5);
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-style: italic;
@@ -180,18 +180,21 @@ nav ul li a:hover {
   font-weight: 800;
   line-height: 1em;
   letter-spacing: 2px;
-  fill: #FFFFFF;
-  color: #FFFFFF;
-  background-color: #E6427A;
+  fill: var(--color-0);
+  color: var(--color-0);
+  background-color: var(--color-5);
   border-radius: 50px 50px 50px 50px;
-  box-shadow: 2px 3px 5px 1px rgba(0, 0, 0, 0.64);
+  box-shadow: 2px 3px 5px 1px rgba(var(--color-rgb-8), 0.64);
   padding: 4% 8% 4% 8%;
+  i{
+    margin-left: 10px;
+  }
 }
 
 .content .conoce-mas:hover {
-  fill: #E6427A;
-  color: #E6427A;
-  background-color: #ffa2e8;
+  fill: var(--color-5);
+  color: var(--color-5);
+  background-color: var(--color-4);
 }
 
 .content .conoce-mas-container {
@@ -229,7 +232,7 @@ nav ul li a:hover {
 
 .content-2 {
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: var(--color-0);
   margin: 15% 15% 16% 15%;
 
   @media (max-width: 768px) {
@@ -263,7 +266,7 @@ nav ul li a:hover {
 
 .content-2 .titulo p {
 
-  color: #E6427A;
+  color: var(--color-5);
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-style: italic;
@@ -282,7 +285,7 @@ nav ul li a:hover {
 .content-2 .titulo hr {
   width: 40%;
   height: 3px;
-  background-color: #E6427A;
+  background-color: var(--color-5);
   border: none;
   opacity: 0.5;
   margin-bottom: 130px;
@@ -314,7 +317,7 @@ nav ul li a:hover {
 .content-2 .quien-soy-imagen img {
   margin: auto;
   width: 80%;
-  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 10px 10px 10px 0px rgba(var(--color-rgb-8), 0.27);
 
   @media (max-width: 768px) {
     width: 100%;
@@ -357,7 +360,7 @@ nav ul li a:hover {
 
 .content-3 {
   min-height: 100vh;
-  background-color: #ffffff;
+  background-color: var(--color-0);
   margin: 14% 5% 20% 5%;
 
   @media (max-width: 768px) {
@@ -432,7 +435,7 @@ nav ul li a:hover {
   margin-right: 20px;
   margin-bottom: 70px;
   box-sizing: border-box;
-  background-color: #FEC8D6;
+  background-color: var(--color-2);
   border-radius: 20px;
   height: 550px;
   p {
@@ -450,7 +453,7 @@ nav ul li a:hover {
 }
 
 .content-3 a {
-  color: #000;
+  color: var(--color-8);
   text-decoration: none;
   padding: 30px;
   height: calc(100% - 60px);
@@ -462,7 +465,7 @@ nav ul li a:hover {
 }
 
 .content-3 a:hover {
-  background-color: #fff;
+  background-color: var(--color-0);
 }
 
 .content-3 .titulo-2 {
@@ -498,9 +501,9 @@ nav ul li a:hover {
   font-weight: 600;
   line-height: 1em;
   letter-spacing: 2px;
-  fill: #FFFFFF;
-  color: #FFFFFF;
-  background-color: #E6427A;
+  fill: var(--color-0);
+  color: var(--color-0);
+  background-color: var(--color-5);
   border-radius: 50px 50px 50px 50px;
   padding: 15px 30px;
 
@@ -511,9 +514,9 @@ nav ul li a:hover {
 }
 
 .content-3 .mas-info:hover {
-  fill: #E6427A;
-  color: #E6427A;
-  background-color: #ffa2e8;
+  fill: var(--color-5);
+  color: var(--color-5);
+  background-color: var(--color-4);
 }
 
 .content-3 .mas-info-container {
@@ -524,7 +527,7 @@ nav ul li a:hover {
 
 .content-4 {
   min-height: 100vh;
-  background-color: #FEC8D6;
+  background-color: var(--color-2);
   padding: 15% 10% 16% 10%;
 
   @media (max-width: 768px) {
@@ -558,7 +561,7 @@ nav ul li a:hover {
 
 .content-4 .titulo p {
 
-  color: #E6427A;
+  color: var(--color-5);
 
   font-family: "Playfair Display", serif;
   font-weight: 500;
@@ -622,7 +625,7 @@ nav ul li a:hover {
 .content-4 .valores-principales-imagen img {
   margin: auto;
   width: 80%;
-  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.27);
+  box-shadow: 10px 10px 10px 0px rgba(var(--color-rgb-8), 0.27);
 
   @media (max-width: 768px) {
     width: 100%;
@@ -677,15 +680,15 @@ nav ul li a:hover {
 
   flex: 0 0 105px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: var(--color-0);
   border-radius: 100%;
   width: 105px;
   height: 105px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 3px #E6427A solid;
-  color: #E6427A;
+  border: 3px var(--color-5) solid;
+  color: var(--color-5);
   font-size: 33px;
 
   @media (max-width: 768px) {
@@ -711,7 +714,7 @@ nav ul li a:hover {
   font-weight: 800;
   line-height: 1em;
   letter-spacing: 1px;
-  color: #E6427A;
+  color: var(--color-5);
   margin: 0px;
   margin-bottom: 20px;
   font-size: 20px;
@@ -724,7 +727,7 @@ nav ul li a:hover {
 }
 
 .content-4 .valor-sub-titulo p {
-  color: #111111;
+  color: var(--color-8);
   font-family: "Poppins", Sans-serif;
   font-size: 1.2vw;
   font-weight: 500;
@@ -750,7 +753,7 @@ nav ul li a:hover {
 
 .content-5 {
   min-height: 50vh;
-  background-color: #ffffff;
+  background-color: var(--color-0);
   margin: 12% 10% 20% 10%;
 
   @media (max-width: 768px) {
@@ -821,7 +824,7 @@ nav ul li a:hover {
 
 .content-5 .preguntas details summary {
   padding: 1% 3% 1% 3%;
-  background-color: #F28CA7;
+  background-color: var(--color-4);
   font-family: "Montserrat", Sans-serif;
   font-size: 1.2vw;
   font-weight: 600;
@@ -838,13 +841,13 @@ nav ul li a:hover {
 
 .content-5 .preguntas details p {
   padding: 1% 3% 1% 3%;
-  background-color: #FFF5F7;
+  background-color: var(--color-1);
   margin: 0px;
   font-family: "Poppins", Sans-serif;
   font-size: 1.2vw;
   font-weight: 400;
   line-height: 1.3em;
-  border-bottom: 1px solid #d5d8dc;
+  border-bottom: 1px solid var(--color-2);
   text-align: justify;
 
   @media (max-width: 768px) {
@@ -856,7 +859,12 @@ nav ul li a:hover {
 .content-6 .desktop {
 
   display: initial;
-
+  swiper-container{
+    height: 500px;
+  }
+  img{
+    width: 100%; height: 100%; object-fit: cover;
+  }
   @media (max-width: 768px) {
 
     display: none;
@@ -866,6 +874,12 @@ nav ul li a:hover {
 .content-6 .movil {
   display: none;
 
+  swiper-container{
+    height: 500px;
+  }
+  img{
+    width: 100%; height: 100%; object-fit: cover;
+  }
   @media (max-width: 768px) {
     display: initial;
   }
@@ -876,7 +890,7 @@ nav ul li a:hover {
 
 .content-7 {
   min-height: 50vh;
-  background-color: #ffffff;
+  background-color: var(--color-0);
   margin: 12% 5% 20% 5%;
 
   @media (max-width: 768px) {
@@ -946,7 +960,7 @@ nav ul li a:hover {
   width: 80px !important;
   height: 80px !important;
   border-radius: 100%;
-  border: 3px #E6427A solid;
+  border: 3px var(--color-5) solid;
 
   img {
     border-radius: 100%;
@@ -967,13 +981,13 @@ nav ul li a:hover {
 }
 
 .content-7 .nombre {
-  color: #E6427A;
+  color: var(--color-5);
   font-family: "Nunito", Sans-serif;
   font-size: 1.4vw;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 0.7px;
-  text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 1px 4px rgba(var(--color-rgb-8), 0.3);
 
   p {
     margin: 0px;
@@ -1002,7 +1016,7 @@ nav ul li a:hover {
 
 .content-8 {
   min-height: 20vh;
-  background-color: #FFD6E1;
+  background-color: var(--color-2);
   padding: 3% 10% 5% 10%;
   ;
 
@@ -1042,15 +1056,15 @@ nav ul li a:hover {
   font-family: "Montserrat", Sans-serif;
   font-size: 1.2vw;
   font-weight: 500;
-  color: #000;
+  color: var(--color-8);
 
   a {
     text-decoration: none;
-    color: #000;
+    color: var(--color-8);
   }
 
   i {
-    color: #E6427A;
+    color: var(--color-5);
     width: 40px;
     text-align: center;
   }
@@ -1103,14 +1117,20 @@ nav ul li a:hover {
   display: flex;
   justify-content: center;
 
+  .doctoralia{
+    display: flex;justify-content: center; align-items: center;
+    img{
+      padding-left: 2px;padding-right: 2px;
+    }
+  }
   a {
     width: 1.5vw;
     height: 1.5vw;
     border-radius: 100%;
     padding: 20px;
     text-decoration: none;
-    color: #000;
-    background-color: #F28CA7;
+    color: var(--color-8);
+    background-color: var(--color-4);
     font-size: 1.2vw;
     margin: 10px;
     transition: transform 0.3s ease;
@@ -1131,7 +1151,7 @@ nav ul li a:hover {
 
   a:hover {
     cursor: pointer;
-    background-color: #ff9eb8;
+    background-color: var(--color-3);
     transform: scale(1.1) !important;
     /* Agrandar el círculo */
   }
@@ -1157,8 +1177,8 @@ nav ul li a:hover {
     border-radius: 100%;
     padding: 30px;
     text-decoration: none;
-    color: #fff;
-    background-color: #E6427A;
+    color: var(--color-0);
+    background-color: var(--color-5);
     font-size: 1.2vw;
     margin: 10px;
     margin-left: auto;
@@ -1185,7 +1205,7 @@ nav ul li a:hover {
 
   a:hover {
     cursor: pointer;
-    background-color: #ff9eb8;
+    background-color: var(--color-4);
     transform: scale(1.1) !important;
     /* Agrandar el círculo */
   }
@@ -1195,8 +1215,8 @@ nav ul li a:hover {
 
 footer {
   text-align: center;
-  background-color: #F28CA7;
-  color: #FFFFFF;
+  background-color: var(--color-4);
+  color: var(--color-0);
   font-family: "Montserrat", Sans-serif;
   font-size: 1.2vw;
   font-weight: 400;
