@@ -144,8 +144,7 @@ export class HomeComponent {
 
     ], 0,{
       disableScrolling:true,
-      centerVertically:true,
-      showDownloadButton:true
+      centerVertically:true
     });
   }
 
