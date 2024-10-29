@@ -146,6 +146,7 @@ nav ul li a:hover {
   left: 0;
   background-image: url(../../../assets/wd1.svg);
   background-position: bottom;
+
   
   @media (max-height: 768px) {
     top: 160px;
@@ -999,7 +1000,7 @@ nav ul li a:hover {
 
 .content-7 {
   min-height: 50vh;
-  background-color: var(--color-0);
+  background-color: transparent;
   margin: 12% 5% 20% 5%;
 
   @media (max-width: 768px) {
@@ -1128,10 +1129,17 @@ nav ul li a:hover {
   background-color: var(--color-2);
   padding: 3% 10% 5% 10%;
   ;
-
+position: relative;
+width: calc(100% - 20%);
   @media (max-width: 768px) {
     padding: 14% 1% 20% 1%;
+    width: calc(100% - 1%);
   }
+
+  
+.wave{
+  top: -95px;
+}
 }
 
 .content-8 .titulo p {
