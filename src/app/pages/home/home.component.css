@@ -1004,7 +1004,7 @@ nav ul li a:hover {
   margin: 12% 5% 20% 5%;
 
   @media (max-width: 768px) {
-    margin: 14% 1% 40% 1%;
+    margin: 14% 1% 60% 1%;
   }
 }
 
@@ -1132,7 +1132,7 @@ nav ul li a:hover {
 position: relative;
 width: calc(100% - 20%);
   @media (max-width: 768px) {
-    padding: 14% 1% 20% 1%;
+    padding: 0 1% 20% 1%;
     width: calc(100% - 1%);
   }
 
