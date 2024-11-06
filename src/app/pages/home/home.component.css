@@ -574,7 +574,7 @@ nav ul li a:hover {
   margin-right: -10px;
   padding: 0% auto 0% auto;
   justify-content: center;
-
+  background: transparent;
   @media (max-width: 768px) {
     flex-direction: column;
     padding: 0% 0% 0% 0%;
@@ -730,7 +730,6 @@ nav ul li a:hover {
 
   @media (max-width: 768px) {
     font-size: 9vw;
-    margin-top: 100px;
     margin-bottom: 50px;
   }
 }
