@@ -151,31 +151,31 @@ nav ul li a:hover {
 
 
   @media (max-height: 768px) {
-    top: 95px;
+    top: 90px;
   }
 
   @media (min-height: 768px) {
-    top: 20px;
+    top: -15px;
   }
 
   @media (min-height: 1031px) {
-    top: -55px;
+    top: -120px;
   }
 
   @media (min-height: 1296px) {
-    top: -130px;
+    top: -220px;
   }
 
   @media (min-height: 1549px) {
-    top: -205px;
+    top: -320px;
   }
 
   @media (min-height: 1796px) {
-    top: -280px;
+    top: -420px;
   }
 
   @media (min-height: 2043px) {
-    top: -355px;
+    top: -555px;
   }
 
   @media (min-height: 2290px) {
@@ -206,6 +206,18 @@ nav ul li a:hover {
 .w-opacity {
 
   opacity: .85;
+  
+  @media (max-height: 768px) {
+    top: 45px;
+  }
+
+  @media (min-height: 768px) {
+    top: 20px;
+  }
+
+  @media (min-height: 1031px) {
+    top: -15px;
+  }
 }
 
 .w2 {
