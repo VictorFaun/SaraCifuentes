@@ -372,7 +372,6 @@ nav ul li a:hover {
 }
 
 .content-2 {
-  min-height: 100vh;
   background-color: var(--color-0);
   margin: 15% 15% 16% 15%;
 
@@ -512,12 +511,11 @@ nav ul li a:hover {
 }
 
 .content-3 {
-  min-height: 100vh;
   background-color: var(--color-0);
   margin: 0px 5% 10% 5%;
 
   @media (max-width: 768px) {
-    margin: 0px 5% 20% 5%;
+    margin: 0px 5% 38% 5%;
   }
 }
 
@@ -681,7 +679,6 @@ nav ul li a:hover {
 
 
 .content-4 {
-  min-height: 100vh;
   background-color: var(--color-2);
   padding: 6% 10% 6% 10%;
   position: relative;
@@ -907,7 +904,6 @@ nav ul li a:hover {
 }
 
 .content-5 {
-  min-height: 50vh;
   background-color: var(--color-0);
   margin: 12% 10% 20% 10%;
 
